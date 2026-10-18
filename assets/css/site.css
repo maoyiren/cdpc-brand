@@ -58,3 +58,22 @@
 @media(max-width:620px){.ai-skins-section{padding-top:54px;padding-bottom:58px}.ai-skins-heading{display:block}.ai-skins-heading>p{margin-top:12px}.ai-skins-grid{grid-template-columns:1fr;gap:22px}.ai-skin-art{height:280px}.skin-figure{bottom:30px}}
 
 .ai-skins-action{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-top:18px}.ai-skins-action .ai-skins-note{margin:0}.ai-skins-action .button{flex-shrink:0}@media(max-width:620px){.ai-skins-action{align-items:stretch;flex-direction:column}.ai-skins-action .button{align-self:flex-start}}
+
+
+/* Platform feature overview */
+.feature-card{padding:22px;background:var(--panel);border:2px solid #435242;box-shadow:4px 4px 0 #131a14;min-height:205px}
+.feature-card .ai-skin-info{padding:18px 0 0;gap:12px}
+.feature-card .ai-skin-info h3{font-size:17px;margin-bottom:8px}
+.feature-card .ai-skin-info p{font-size:12px;line-height:1.9;max-width:330px}
+.feature-icon{height:72px;width:72px;display:grid;place-items:center;position:relative;background:#3a4a3a;border:2px solid #52674a}
+.feature-parts{grid-template-columns:repeat(2,13px);grid-template-rows:repeat(2,13px);gap:4px}
+.feature-parts i{display:block;width:13px;height:13px;background:#b6d87b;border:2px solid #202820}
+.feature-parts i:nth-child(2){background:#c47c58}.feature-parts i:nth-child(3){background:#8fb8a1}.feature-parts i:nth-child(4){background:#e4d49c}
+.feature-preview i{width:31px;height:39px;background:#8fb8a1;border:5px solid #d8e4c8;box-shadow:8px 8px 0 #202820}
+.feature-preview:after{content:"";position:absolute;left:20px;top:15px;width:30px;height:10px;border:2px solid #b6d87b;border-bottom:0}
+.feature-create{color:#202820;background:#b6d87b;font-size:30px;border-color:#172018;box-shadow:3px 3px 0 #172018}
+.feature-community{color:#f5f1dc;background:#a85b48;font-size:30px;border-color:#172018;box-shadow:3px 3px 0 #172018}
+.feature-link{display:inline-block;margin-top:10px;font-size:12px;color:var(--green);font-weight:800}
+.feature-link:hover{text-decoration:underline}
+.feature-card:hover{border-color:var(--green)}
+@media(max-width:620px){.feature-card{padding:17px;min-height:0}.feature-card .ai-skin-info{padding-top:15px}.feature-icon{height:62px;width:62px}}
