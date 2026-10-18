@@ -11,3 +11,48 @@
 @media(max-width:850px){.hero{gap:25px}.hero-art{height:360px}.category-grid{grid-template-columns:repeat(3,1fr)}.preview-layout{gap:35px}.look-art{height:190px}.community-mark{right:2%;opacity:.45}}
 @media(max-width:620px){.section-wrap{width:calc(100% - 32px)}.site-header{height:64px;padding:0 16px}.menu-toggle{display:flex;align-items:center;gap:8px;background:none;color:var(--ink);border:2px solid var(--line);padding:6px 10px;font-size:12px}.site-nav{display:none;position:absolute;left:0;right:0;top:62px;padding:12px 16px 18px;background:#202820;border-bottom:2px solid var(--line);flex-direction:column;align-items:stretch;gap:0}.site-nav.is-open{display:flex}.site-nav>a{padding:12px 7px}.site-nav .nav-cta{text-align:center;margin-top:8px}.hero{grid-template-columns:1fr;gap:28px;padding-top:48px;padding-bottom:44px;min-height:0}.hero h1{font-size:clamp(42px,11vw,58px);letter-spacing:-1.5px}.hero-lead{font-size:14px}.hero-art{height:330px;max-width:480px;width:100%;margin:auto}.hero-points{gap:13px;margin-top:26px;font-size:10px}.category-strip{padding-top:43px;padding-bottom:55px}.category-grid{grid-template-columns:repeat(2,1fr);gap:10px}.category-card{min-height:132px;padding:13px}.category-icon{height:42px;width:42px;margin-bottom:8px}.preview-section{padding:53px 0}.preview-layout{grid-template-columns:1fr;gap:30px}.preview-copy>p{font-size:13px}.preview-scene{height:270px}.gallery-section{padding-top:55px;padding-bottom:60px}.gallery-heading{display:block}.gallery-heading>p{margin-top:13px}.gallery-grid{grid-template-columns:1fr;gap:18px}.look-art{height:240px}.community-inner{padding-top:44px;padding-bottom:45px}.community-inner h2{font-size:37px}.community-mark{font-size:90px;right:0;top:30%;opacity:.3}.site-footer{grid-template-columns:1fr auto;gap:12px}.site-footer>p{display:none}.site-footer>div{gap:12px;font-size:10px}.site-footer small{font-size:9px;line-height:1.8}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+
+/* AI skin concept showcase */
+.ai-skins-section{padding-top:72px;padding-bottom:78px;border-top:1px solid var(--line)}
+.ai-skins-heading{display:flex;align-items:end;justify-content:space-between;gap:28px;margin-bottom:26px}
+.ai-skins-heading>p{max-width:320px;margin:0 0 5px;color:var(--muted);font-size:13px;line-height:1.9}
+.ai-skins-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.ai-skin-card{min-width:0}
+.ai-skin-art{height:300px;position:relative;overflow:hidden;border:2px solid #111811;box-shadow:4px 4px 0 #131a14}
+.ai-skin-celestial{background:linear-gradient(180deg,#273854 0%,#53698a 65%,#8d9aa0 65%,#697d7e 100%)}
+.ai-skin-moss{background:linear-gradient(180deg,#8da58b 0%,#b9c39a 65%,#9b9b6b 65%,#65774c 100%)}
+.ai-skin-art:before,.ai-skin-art:after{content:"";position:absolute;pointer-events:none}
+.ai-skin-art:before{inset:0;background-image:linear-gradient(#e9eed51c 1px,transparent 1px),linear-gradient(90deg,#e9eed51c 1px,transparent 1px);background-size:20px 20px}
+.ai-skin-celestial:after{width:44px;height:44px;top:48px;right:18%;background:#e6e5d0;box-shadow:8px 8px 0 #d4d9d533}
+.ai-skin-moss:after{width:34px;height:34px;top:48px;right:18%;background:#e9d39a;box-shadow:6px 6px 0 #e9d39a44}
+.ai-skin-tag{position:absolute;top:12px;left:12px;z-index:4;padding:5px 8px;background:#202820e8;color:#dbe8c8;font:9px var(--mono);letter-spacing:.5px}
+.skin-figure{position:absolute;z-index:2;left:50%;bottom:34px;width:104px;height:210px;transform:translateX(-50%);filter:drop-shadow(7px 7px 0 #17201955)}
+.skin-figure i{position:absolute;display:block}
+.skin-hair{left:26px;top:0;width:54px;height:48px;background:#242a40;border:5px solid #151d2c;box-shadow:-7px 9px 0 #242a40,8px 10px 0 #242a40}
+.skin-face{left:34px;top:15px;width:39px;height:38px;background:#d6ad8c;border:4px solid #8b6e62}
+.skin-face:after{content:"";position:absolute;right:4px;top:13px;width:5px;height:5px;background:#293044;box-shadow:-15px 0 #293044}
+.skin-neck{left:44px;top:49px;width:18px;height:15px;background:#c89a79}
+.skin-coat{left:21px;top:62px;width:63px;height:76px;background:#526b9c;border:6px solid #a8c5d2}
+.skin-sleeve{top:66px;width:19px;height:65px;background:#d6ad8c;border:3px solid #7d6d68}
+.sleeve-left{left:2px}.sleeve-right{right:1px}
+.skin-leg{top:141px;width:26px;height:45px;background:#39445e;border:4px solid #242d40}
+.leg-left{left:24px}.leg-right{left:55px}
+.skin-boot{top:184px;width:29px;height:17px;background:#c1c8d2;border:3px solid #343b4b}
+.boot-left{left:21px}.boot-right{left:54px}
+.ai-skin-moss .skin-hair{background:#403b2d;border-color:#292b20;box-shadow:-7px 9px 0 #403b2d,8px 10px 0 #403b2d}
+.ai-skin-moss .skin-face{background:#d2a67f;border-color:#7b6045}
+.ai-skin-moss .skin-face:after{background:#343a2c;box-shadow:-15px 0 #343a2c}
+.ai-skin-moss .skin-coat{background:#647b4e;border-color:#c3c99b}
+.ai-skin-moss .skin-sleeve{background:#d2a67f;border-color:#766347}
+.ai-skin-moss .skin-leg{background:#6a6446;border-color:#3e4732}
+.ai-skin-moss .skin-boot{background:#a57b4d;border-color:#554b34}
+.skin-star,.skin-leaf{position:absolute;z-index:1;font-size:26px;color:#f3e9ba}
+.star-one{left:22%;top:30%}.star-two{right:23%;top:47%;font-size:19px}
+.skin-leaf{color:#e0e7b2}.leaf-one{left:18%;top:34%}.leaf-two{right:24%;top:49%;font-size:18px}
+.skin-ground{position:absolute;left:0;right:0;bottom:0;height:22px;background:repeating-linear-gradient(90deg,#4d5e43 0 38px,#61744c 38px 76px);z-index:1}
+.ai-skin-info{display:flex;justify-content:space-between;align-items:start;padding:13px 2px 0}
+.ai-skin-info h3{font-size:16px;margin:0 0 3px}.ai-skin-info p{font-size:11px;color:var(--muted);margin:0}
+.ai-skin-index{font:12px var(--mono);color:var(--green);padding-top:3px}
+.ai-skins-note{font-size:11px;line-height:1.8;color:#9ca994;margin:18px 0 0}
+@media(max-width:620px){.ai-skins-section{padding-top:54px;padding-bottom:58px}.ai-skins-heading{display:block}.ai-skins-heading>p{margin-top:12px}.ai-skins-grid{grid-template-columns:1fr;gap:22px}.ai-skin-art{height:280px}.skin-figure{bottom:30px}}
