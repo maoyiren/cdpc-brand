@@ -56,3 +56,5 @@
 .ai-skin-index{font:12px var(--mono);color:var(--green);padding-top:3px}
 .ai-skins-note{font-size:11px;line-height:1.8;color:#9ca994;margin:18px 0 0}
 @media(max-width:620px){.ai-skins-section{padding-top:54px;padding-bottom:58px}.ai-skins-heading{display:block}.ai-skins-heading>p{margin-top:12px}.ai-skins-grid{grid-template-columns:1fr;gap:22px}.ai-skin-art{height:280px}.skin-figure{bottom:30px}}
+
+.ai-skins-action{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-top:18px}.ai-skins-action .ai-skins-note{margin:0}.ai-skins-action .button{flex-shrink:0}@media(max-width:620px){.ai-skins-action{align-items:stretch;flex-direction:column}.ai-skins-action .button{align-self:flex-start}}
